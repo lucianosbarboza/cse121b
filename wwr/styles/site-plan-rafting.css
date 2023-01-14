@@ -12,7 +12,7 @@ Fonts are separated by a & */
   --accent2-color: #62BBC1;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Neucha";
+  --heading-font: Neucha;
   --paragraph-font: Roboto, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
