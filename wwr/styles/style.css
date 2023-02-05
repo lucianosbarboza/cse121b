@@ -26,6 +26,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
 }
@@ -41,6 +45,10 @@ body {
     margin: 0;
     padding: 0;
 
+}
+
+.card-img {
+    border: 10px solid #30332E;
 }
 
 h2 {
@@ -61,6 +69,7 @@ nav a:hover {
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
+    border-radius: 5px;
 }
 
 .rivers-card, .camping-card, .rapids-card {
