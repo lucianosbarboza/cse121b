@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
 .content {
     max-width: 1600px;
     margin: 0 auto;
@@ -40,16 +44,27 @@ nav a:hover {
 .book, .join{
     background-color: #62BBC1;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .book:hover, .join:hover{
     background-color: #62BBC1;
     color: #30332E;
 }
+.home-title {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2em;
+}
 
 .msg{
     background-color: #62BBC1;
+    line-height: 1.5em;
 }
+
+.msg p{
+    font-size: 0.8em;
+}
+
 
 footer{
     background-color: #30332E;
