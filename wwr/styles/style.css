@@ -47,6 +47,10 @@ body {
 
 }
 
+#hero-img {
+    size: auto;
+}
+
 .card-img {
     border: 10px solid #30332E;
 }
