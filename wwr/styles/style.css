@@ -8,6 +8,17 @@
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
 nav a {
     text-align: center;
     color: #62BBC1;
