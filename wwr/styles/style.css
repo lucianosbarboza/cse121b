@@ -15,6 +15,11 @@ nav a {
     padding: 35px;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
