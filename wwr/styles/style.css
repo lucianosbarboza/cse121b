@@ -13,7 +13,6 @@ header {
     grid-template-columns: 200px auto;
     background-color: #fcfbfb;
     width: auto;
-    height: 150px;
 }
 
 #logo_link {
@@ -21,7 +20,6 @@ header {
     justify-self: center;
     padding-top: 5px;
     width: auto;
-    height: 100%;
     display: block;
 }
 nav {
