@@ -10,17 +10,14 @@
 
 header {
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 150px auto;
     background-color: #fcfbfb;
     width: auto;
 }
 
 #logo_link {
 
-    justify-self: center;
     padding-top: 5px;
-    width: auto;
-    display: block;
 }
 nav {
     display: flex;
