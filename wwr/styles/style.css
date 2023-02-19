@@ -8,6 +8,19 @@
     margin: 20px auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #fcfbfb;
+}
+
+#logo_link {
+    width: 50%;
+    height: 50%;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
 nav {
     display: flex;
     justify-content: space-around;
@@ -19,18 +32,7 @@ nav a {
     text-decoration: none;
 }
 
-header {
-    display: grid;
-    grid-template-columns: 150px auto;
-}
 
-#logo_link {
-    width: 50%;
-    height: 50%;
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
-}
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -72,10 +74,6 @@ main section img {
     height: 725px;
 }
 
-#logo_link{
-    padding-top: 5px;
-}
-
 body {
     background-color: #fcfbfb; 
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -97,9 +95,6 @@ h2 {
     margin: 0;
 }
 
-header {
-    background-color: #FFFBFC;
-}
 nav a:hover {
     background-color: #62BBC1;
     color: #30332E;
