@@ -12,6 +12,8 @@ header {
     display: grid;
     grid-template-columns: 200px auto;
     background-color: #fcfbfb;
+    width: auto;
+    height: 150px;
 }
 
 #logo_link {
