@@ -83,9 +83,44 @@ body {
 
 }
 
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
 #hero-img {
     width: 100%;
 }
+
+.card-img, .mountains {
+    width: 100%;
+}
+
+.rivers-card {
+    grid-column: 2/4;
+    grid-row: 2-3;
+}
+
+.camping-card {
+    grid-column: 5/7;
+    grid-row: 2-3;
+}
+
+.rapids-card {
+    grid-column: 8/10;
+    grid-row: 2-3;
+}
+
+#background {
+    grid-column: 1/11;
+    grid-row: 4-9;
+}
+
+.mountains {
+    grid-column: 2/7;
+    grid-row: 5-8;
+}
+
 
 .card-img {
     border: 10px solid #30332E;
@@ -132,6 +167,8 @@ h4 {
     background-color: #62BBC1;
     line-height: 1.5em;
     padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6-7;
 }
 
 .msg p{
