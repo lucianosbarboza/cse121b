@@ -19,6 +19,8 @@ header {
     justify-self: center;
     align-self: center;
     padding-top: 5px;
+    width: 100%;
+    display: block;
 }
 nav {
     display: flex;
