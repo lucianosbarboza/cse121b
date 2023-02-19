@@ -13,14 +13,6 @@ nav {
     justify-content: space-around;
 }
 
-#logo_link {
-    width: 50%;
-    height: 50%;
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
-}
-
 nav a {
     text-align: center;
     color: #62BBC1;
@@ -32,6 +24,13 @@ header {
     grid-template-columns: 150px auto;
 }
 
+#logo_link {
+    width: 50%;
+    height: 50%;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
