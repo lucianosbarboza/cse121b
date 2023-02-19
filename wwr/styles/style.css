@@ -25,10 +25,12 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
+
 }
 
 nav a {
     text-align: center;
+    vertical-align: middle;
     color: #62BBC1;
     text-decoration: none;
 }
