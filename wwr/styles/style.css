@@ -21,6 +21,7 @@ header {
     justify-self: center;
     padding-top: 5px;
     width: auto;
+    height: 100%;
     display: block;
 }
 nav {
