@@ -15,7 +15,7 @@ header {
 }
 
 .logo{
-    width: 100%;
+    width: inherit;
 }
 
 #logo_link {
