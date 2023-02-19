@@ -25,7 +25,6 @@ nav a {
     text-align: center;
     color: #62BBC1;
     text-decoration: none;
-    padding: 35px;
 }
 
 header {
@@ -33,10 +32,28 @@ header {
     grid-template-columns: 150px auto;
 }
 
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 
+#hero-msg h4{
+    color: white;
+}
 .button-box {
     text-align: center;
 }
