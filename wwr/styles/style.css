@@ -118,13 +118,21 @@ body {
 }
 
 .mountains {
+    width: 100%;
     grid-column: 2/7;
     grid-row: 5-8;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 
 .card-img {
     border: 10px solid #30332E;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 
 h2 {
@@ -170,6 +178,7 @@ h4 {
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6-7;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .msg p{
