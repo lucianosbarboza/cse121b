@@ -15,6 +15,7 @@ header {
 }
 
 #logo_link {
+    grid-column: 1/2;
     justify-self: center;
     align-self: center;
 }
