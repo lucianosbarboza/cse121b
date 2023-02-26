@@ -10,15 +10,19 @@
 
 header {
     display: grid;
-    grid-template-columns: 150px auto;
-    grid-template-rows: 200px;
-    background-color: #fcfbfb;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 120px;
+    background-color: #30332E;
     width: auto;
 }
-
+.logo{
+    
+    width: 60%;
+    padding: 12px 40px;
+}
 #logo_link {
+    width: 100%;
 
-    padding-top: 5px;
 }
 nav {
     display: flex;
