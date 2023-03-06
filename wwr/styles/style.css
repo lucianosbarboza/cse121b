@@ -228,6 +228,14 @@ footer .social img {
     padding-top: 15px;    
 }
 
+.footer-text{
+    color: white;
+    text-decoration: none;
+}
+.footer-text:hover{
+    color: aqua;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
