@@ -4,11 +4,13 @@
     margin: 0 auto;
     /*background-color: black;*/
 }
+
 img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin-bottom: -3px;
+    margin-bottom: -4px;
 }
+
 .top-image{
     padding: 0;
     margin: 0;
@@ -17,6 +19,7 @@ img{
 body{
     background-color: black;
 }
+
 .container{
     border-radius: 20px;
     margin-top: 10px;
@@ -32,7 +35,6 @@ body{
     padding: 25px 40px 15px 40px;
 }
 
-
 .three-items {
     background-color: #3F5B8A;
     display: grid;
@@ -44,8 +46,6 @@ body{
     place-items: center;
     text-align: center;
     align-content: center;
-    
-    
 }
 
 .p1{
@@ -59,6 +59,7 @@ body{
     border-right: .1px solid white;
     border-left:  .1px solid white;
 }
+
 .bottom{
     height: 100%;
 }
@@ -69,6 +70,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(75, 75, 133);
 }
+
 .h1-text{
     font-family: 'Crete Round', serif;
 }
@@ -77,6 +79,7 @@ body{
     margin-top: 20px;
     color: gray;
 }
+
 .top{
     font-size: 22px;
 }
