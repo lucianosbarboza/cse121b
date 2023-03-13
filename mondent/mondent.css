@@ -95,7 +95,6 @@ li a:hover{
 }
 img{
     width: 100%;
-    height: ;
     grid-column: 1/3;
     grid-row: 1/2;
     z-index: -1;
