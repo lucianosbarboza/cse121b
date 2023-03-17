@@ -4,7 +4,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
-    
+ 
+
+@media only screen and (max-width: 600px) {
+    .page-header {
+      flex-direction: column;
+    }
+    .page-header a {
+      margin-bottom: 10px;
+    }
+    .icon {
+      display: block;
+    }
+  }
 *{
     margin: 0;
 }
