@@ -7,6 +7,9 @@
  
 
 @media only screen and (max-width: 600px) {
+    body{
+        width: 100%;
+    }
     .page-header {
       flex-direction: column;
     }
@@ -15,6 +18,7 @@
     }
     .icon {
       display: block;
+
     }
   }
 *{
@@ -31,7 +35,7 @@ body{
 .page-header{
     box-shadow: 0 3px 0 0 #8D86C9;
     background-color: hsla(0, 0%, 100%, 0.95);
-    width: 1200px;
+    width: 100%;
     position: fixed;
     top: 0;
     display: grid;
