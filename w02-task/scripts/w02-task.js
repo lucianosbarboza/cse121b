@@ -5,8 +5,8 @@
 /* Step 2 - Variables */
 let fullName = 'Luciano S Barboza';
 let currentDate = new Date().getFullYear();
-const profilePicture = 'images/placeholder.png';
-let favoriteFoods = ['Arabic food', 'Italian food', 'Brazilian food'];
+const profilePicture = 'w02-task/images/placeholder.png';
+let favoriteFoods = ['Arabic food', ' Italian food', ' Brazilian food'];
 
 
 /* Step 3 - Element Variables */
@@ -28,14 +28,14 @@ imageElement.setAttribute('alt', `Profile image of ${fullName}`);
 /* Step 5 - Array */
 
 // Set the initial content of foodElement
-foodElement.innerHTML = favoriteFoods.join('<br>');
-let newFavoriteFood = 'Ice Cream';
+foodElement.innerHTML = favoriteFoods;
+let newFavoriteFood = ' Ice Cream';
 favoriteFoods.push(newFavoriteFood);
-foodElement.innerHTML += `<br>${favoriteFoods.join('<br>')}`;
+foodElement.innerHTML += `<br>${favoriteFoods}`;
 favoriteFoods.shift();
-foodElement.innerHTML += `<br>${favoriteFoods.join('<br>')}`;
+foodElement.innerHTML += `<br>${favoriteFoods}`;
 favoriteFoods.pop();
-foodElement.innerHTML += `<br>${favoriteFoods.join('<br>')}`;
+foodElement.innerHTML += `<br>${favoriteFoods}`;
 
 
 
