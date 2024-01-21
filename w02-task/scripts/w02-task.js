@@ -5,7 +5,7 @@
 /* Step 2 - Variables */
 let fullName = 'Luciano S Barboza';
 let currentDate = new Date().getFullYear();
-const profilePicture = 'w02-task/images/placeholder.png';
+const profilePicture = 'images/placeholder.png';
 let favoriteFoods = ['Arabic food', ' Italian food', ' Brazilian food'];
 
 
